@@ -1,0 +1,31 @@
+Gringas:
+Quemeves precio 95 y contiene pastor,chuleta,tocino,piña y queso
+Fortachon precio 95 y contiene chuleta,longaniza,pastor, tocino y queso.
+Sarape precio 95 y contiene morron, cebolla, bistec, chuleta,longaniza, tocino y queso.
+Alambre precio 95 y contiene morron, cebolla, chuleta, tocino y queso.
+Alambre de pollo precio 95 y contiene morron,cebolla,pechuga, queso,tocino, piña y champiñones.
+Sabores precio 95 y contiene chuleta, pastor, tocino, longaniza, cebolla, morron, piña, chamíñones y queso.
+Pelangoche precio 95 y contiene morron, cebolla, bistec,tocino y queso.
+Quemanotas precio 95 y contiene morron,cebolla, chuleta, champiñones, piña, tocino y queso.
+Vegetariano precio 80 y contiene morron, cebolla, nopales, piña, champiñones, queso.
+Beso de monja precio 60 y contiene bistec, queso y tortilla de harina.
+Sencilla precio 60 y contiene Pastor,queso y tortilla de harina.
+
+Tacos:
+Pastor
+Bistec
+Chuleta
+Longaniza
+
+Tortas:
+Pastor precio 55 y contiene pastor y queso.
+Hawaiana precio 55 y contiene pastor, chuleta, piña, jamon, queso.
+Combinada precio 55 y contiene pastor,longaniza, chuleta, jamon, queso.
+Bistec precio 65 y contiene Bistec de res y queso.
+
+Bebidas:
+Refresco:
+ vidrio $20, DESECHABLE $25
+Agua Fresca:
+1LT $30, 1/2LT $20
+

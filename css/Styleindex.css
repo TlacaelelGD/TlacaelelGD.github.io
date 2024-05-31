@@ -1,0 +1,114 @@
+/* Importar fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+body {
+    background-color: #f5f5dc; /* Color de fondo hueso */
+    font-family: 'Open Sans', Arial, sans-serif; /* Tipo de letra para el cuerpo del texto */
+    color: #333; /* Color de texto por defecto */
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+header.container {
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container .nav-brand img {
+    width: 110px;
+    margin-left: 15px;
+}
+
+#img1 {
+    width: 80px;
+    margin-left: 15px;
+}
+
+#img2 {
+    width: 200px;
+    margin-left: auto; 
+    margin-right: auto;
+    animation: mover 2s infinite alternate;
+}
+
+#img3 {
+    width: 80px;
+    margin-left: 15px;
+}
+
+#img4 {
+    width: 200px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#img5 {
+    width: 40px;
+    margin-left: auto; 
+    margin-right: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif; /* Tipo de letra para el título principal */
+    color: #0e0202; /* Color fuerte para el título principal */
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif; /* Tipo de letra para los subtítulos */
+    color: #110202; /* Color fuerte para los subtítulos */
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif; /* Tipo de letra para los subtítulos menores */
+    color: #130101; /* Color fuerte para los subtítulos menores */
+}
+
+@keyframes mover {
+    0% { transform: translateX(-20px); }
+    100% { transform: translateX(20px); }
+}
+
+.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff; /* Fondo blanco para la tabla */
+}
+
+.menu-table th, .menu-table td {
+    border: 1px solid #530b0b;
+    padding: 8px;
+}
+
+.menu-table th {
+    background-color: #45af49;
+    color: rgb(28, 4, 4);
+    text-align: left;
+}
+
+.menu-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Fondo gris claro para filas pares */
+}
+
+.menu-table tr:hover {
+    background-color: #e0e0e0; /* Fondo gris claro para hover */
+}
+
+.menu-section {
+    overflow: hidden; /* Asegura que los elementos flotantes se contengan dentro de la sección */
+}
+
+.menu-section img {
+    width: 150px; /* Tamaño de las imágenes */
+    height: auto;
+    float: left; /* Coloca la imagen al lado izquierdo */
+    margin-right: 20px; /* Espacio entre la imagen y la tabla */
+    margin-bottom: 20px; /* Espacio debajo de la imagen */
+}

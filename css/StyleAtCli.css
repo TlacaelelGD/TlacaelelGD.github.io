@@ -1,0 +1,105 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para el encabezado */
+  .encabezado {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos para la información de contacto */
+  .contact-info {
+    margin-bottom: 30px;
+  }
+  
+  .contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para el formulario de contacto */
+  .contact-form {
+    margin-bottom: 30px;
+  }
+  
+  .contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    background-color: #45af49;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #398e3d;
+  }
+  
+  /* Estilos para las preguntas frecuentes */
+  .faq {
+    margin-bottom: 30px;
+  }
+  
+  .faq h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .faq-item p {
+    margin-bottom: 5px;
+  }
+  

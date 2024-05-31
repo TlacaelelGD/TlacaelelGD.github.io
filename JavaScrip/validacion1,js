@@ -1,0 +1,43 @@
+function validarFormulario() {
+    var nombre = document.getElementById('nombre').value;
+    var correo = document.getElementById('correo').value;
+    var contraseña = document.getElementById('contraseña').value;
+    var confirmar_contraseña = document.getElementById('confirmar_contraseña').value;
+
+    var error_nombre = document.getElementById('error_nombre');
+    var error_correo = document.getElementById('error_correo');
+    var error_contraseña = document.getElementById('error_contraseña');
+    var error_confirmar_contraseña = document.getElementById('error_confirmar_contraseña');
+
+    error_nombre.textContent = '';
+    error_correo.textContent = '';
+    error_contraseña.textContent = '';
+    error_confirmar_contraseña.textContent = '';
+
+    var valido = true;
+
+    if (!/^[A-Za-z\u00C0-\u017F]+$/.test(nombre)) {
+        error_nombre.textContent = 'El nombre solo puede contener letras.';
+        valido = false;
+    }
+
+    if (!/\S+@\S+\.\S+/.test(correo)) {
+        error_correo.textContent = 'El correo electrónico ingresado no es válido.';
+        valido = false;
+    } else if (correo.indexOf('@') === -1 || correo.indexOf('.') === -1) {
+        error_correo.textContent = 'El correo electrónico debe contener un "@" y una extensión de dominio válida.';
+        valido = false;
+    }
+
+    if (contraseña.length < 6) {
+        error_contraseña.textContent = 'La contraseña debe tener al menos 6 caracteres.';
+        valido = false;
+    }
+
+    if (contraseña !== confirmar_contraseña) {
+        error_confirmar_contraseña.textContent = 'Las contraseñas no coinciden.';
+        valido = false;
+    }
+
+    return valido;
+}
